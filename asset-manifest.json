@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bzreem.github.io/TwitterCopy/static/css/main.d87d8c8a.css",
+    "main.js": "/bzreem.github.io/TwitterCopy/static/js/main.83b9d77a.js",
+    "static/js/787.3a6631f8.chunk.js": "/bzreem.github.io/TwitterCopy/static/js/787.3a6631f8.chunk.js",
+    "static/media/t13.jfif": "/bzreem.github.io/TwitterCopy/static/media/t13.eafa1d39b13a6b772587.jfif",
+    "static/media/profile-img.jpg": "/bzreem.github.io/TwitterCopy/static/media/profile-img.6108a56dfc4357181519.jpg",
+    "index.html": "/bzreem.github.io/TwitterCopy/index.html",
+    "main.d87d8c8a.css.map": "/bzreem.github.io/TwitterCopy/static/css/main.d87d8c8a.css.map",
+    "main.83b9d77a.js.map": "/bzreem.github.io/TwitterCopy/static/js/main.83b9d77a.js.map",
+    "787.3a6631f8.chunk.js.map": "/bzreem.github.io/TwitterCopy/static/js/787.3a6631f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d87d8c8a.css",
+    "static/js/main.83b9d77a.js"
+  ]
+}
