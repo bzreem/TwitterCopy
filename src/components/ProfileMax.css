@@ -1,0 +1,68 @@
+.btn-container-profile-max {
+  margin-bottom: 2rem;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: initial;
+}
+
+.btn-container-profile-max figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1300px) {
+  .btn-container-profile-max {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+
+  .btn-container-profile-max figure {
+    width: 45px;
+  }
+
+  .div-container-all-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    width: 60%;
+  }
+
+  .div-container-information-perfil-max {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .div-container-information-perfil-max article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .div-container-information-perfil-max .span-name-of-user {
+    color: var(--primary-color-text);
+    font-size: 0.95rem;
+  }
+
+  .div-container-information-perfil-max article .span-container-private {
+    width: 19px;
+    margin-left: 0.2rem;
+  }
+
+  .div-container-three-points {
+    width: 30px;
+  }
+
+  .div-container-three-points svg circle {
+    fill: var(--primary-color-text);
+  }
+}

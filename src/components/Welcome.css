@@ -1,0 +1,22 @@
+.div-container-welcome {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 1rem; */
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+.div-container-welcome h2 {
+  margin-left: 0.5rem;
+}
+
+.div-container-welcome div {
+  width: 25px;
+  margin-right: 0.5rem;
+}

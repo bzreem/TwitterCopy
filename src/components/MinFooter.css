@@ -1,0 +1,18 @@
+.my-min-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  border-top: thin solid #6e767d;
+}
+
+.div-container-icon-footer-min {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.div-container-icon-footer-min div {
+  width: 25px;
+}

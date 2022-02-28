@@ -1,0 +1,54 @@
+.my-min-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+.div-container-both {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  width: 150px;
+}
+
+.div-container-min-header-img {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.div-container-min-header-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.div-container-min-header-home {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+
+.div-container-min-header-home h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.div-container-min-header-featured {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+path,
+circle {
+  fill: rgb(239, 243, 244);
+}

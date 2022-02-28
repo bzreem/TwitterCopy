@@ -1,0 +1,58 @@
+.my-max-header {
+  position: sticky;
+  top: 0;
+  padding-top: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-container-icons-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+}
+
+.div-container-icons-header div {
+  width: 27px;
+}
+
+.div-container-icons-header a {
+  border-top: none;
+}
+
+.div-container-more circle {
+  fill: rgb(239, 243, 244);
+}
+
+@media screen and (min-width: 500px) {
+  .my-max-header {
+    width: 15%;
+    border-right: 1px solid #6e767d;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .my-max-header {
+    width: 25%;
+    align-items: flex-start;
+  }
+  .div-container-icons-header a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .div-container-icons-header span {
+    width: 70%;
+    margin-left: 1.5rem;
+  }
+
+  .div-container-icons-header span h2 {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,185 @@
+.section-container-search-in-twitter {
+  position: sticky;
+  top: 0;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container-search-in-twitter form {
+  width: 93%;
+}
+
+.div-container-input-search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 45px;
+  border-radius: 1.2rem;
+  background-color: #202327;
+}
+
+.div-container-input-search div {
+  width: 17px;
+}
+
+.div-container-input-search input[type="search"] {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  background-color: transparent;
+}
+
+aside {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.section-container-search-in-twitter .article-container-trends {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0;
+  width: 93%;
+  background-color: rgb(21, 24, 28);
+  border-radius: 0.7rem;
+}
+.div-container-trends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  width: 95%;
+  color: white;
+}
+
+.div-container-trends h2 {
+  font-size: 1.25rem;
+}
+
+.div-container-trends div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+}
+
+.div-container-sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  width: 95%;
+}
+
+.div-container-sub-title span {
+  font-size: 0.85rem;
+  color: var(--primary-color-text);
+}
+.div-container-sub-title div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+}
+
+.div-container-sub-title div circle {
+  fill: var(--primary-color-text);
+}
+
+.div-container-name-and-tweets {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-top: 0.2rem;
+  width: 95%;
+  color: white;
+}
+
+.div-container-name-and-tweets h3 {
+  font-size: 0.9rem;
+}
+
+.div-container-name-and-tweets span {
+  margin-top: 0.1rem;
+  font-size: 0.8rem;
+  color: var(--primary-color-text);
+}
+.div-container-more-trends {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem 0;
+  width: 95%;
+}
+.div-container-more-trends a {
+  color: var(--primary-color);
+}
+
+.section-container-search-in-twitter .article-container-who-to-follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 0;
+  margin-top: 1rem;
+  width: 93%;
+  background-color: rgb(21, 24, 28);
+  border-radius: 0.7rem;
+}
+
+.article-container-who-to-follow h2 {
+  margin-top: 1rem;
+  width: 93%;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.div-container-recommendations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  width: 93%;
+}
+
+.div-container-recommendations figure {
+  width: 60px;
+}
+
+.div-container-recommendations figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.div-container-recommendations .div-container-information-recommendation-user {
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.div-container-information-recommendation-user h3 {
+  font-size: 1rem;
+}
+
+.div-container-information-recommendation-user span {
+  color: var(--primary-color-text);
+}
+
+.div-container-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.div-container-btn button {
+  width: 80px;
+  height: 35px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 1rem;
+}

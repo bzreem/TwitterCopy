@@ -1,0 +1,94 @@
+.section-container-tweet-max {
+  margin-top: 1rem;
+}
+.div-container-img-form {
+  display: flex;
+  align-items: flex-start;
+  width: 95%;
+}
+
+.div-container-img-form path,
+circle {
+  fill: var(--primary-color);
+}
+
+.div-container-img-form figure {
+  margin-left: 1rem;
+  margin-right: 1.2rem;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.div-container-img-form figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.div-container-img-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div-container-img-form form input[type="text"] {
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.div-container-img-form form input[type="submit"] {
+  width: 90px;
+  padding: 0.55rem 0;
+  border: none;
+  font-size: 0.95rem;
+  text-align: center;
+  border-radius: 2rem;
+  outline: none;
+  color: white;
+  background-color: var(--primary-color);
+}
+.div-container-option-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.div-container-img-form button {
+  display: flex;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--primary-color-text);
+  color: var(--primary-color);
+}
+
+.div-container-img-form button span {
+  padding-left: 0.3rem;
+}
+
+.div-container-option-form div {
+  width: 15px;
+}
+
+.div-container-icon-form-tweet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.div-container-icon-form-tweet .div-container-label-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+}
+
+.div-container-icon-form-tweet .div-container-label-icon label {
+  width: 20px;
+}
